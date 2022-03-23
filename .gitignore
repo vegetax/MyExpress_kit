@@ -1,0 +1,4 @@
+
+#忽略npm库
+node_modules/
+aaa/
