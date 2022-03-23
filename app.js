@@ -43,7 +43,7 @@ sever.use((err, req, res, next) => {
   if (err.name === "UnauthorizedError") return res.cc("身份认证失败！");
   res.cc(err);
 });
-
+// nodemon app.js 开启服务器！
 sever.listen(3007, () => {
   console.log("welcome to http://127.0.0.1:3007");
 });
