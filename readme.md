@@ -1,8 +1,15 @@
-#腾讯云宝塔
-外网面板地址: http://43.142.113.28:8888/08a58bfd
-内网面板地址: http://10.0.12.5:8888/08a58bfd
-username: vegetax
-password: btpcxmz6871X
-If you cannot access the panel,
-release the following panel port [8888] in the security group
-若无法访问面板，请检查防火墙/安全组是否有放行面板[8888]端口
+ # express基础
+ $ nodemon app.js
+ 
+ ## 说明
+ express的本质就是
+ 1. 创建服务器
+  - server = express()
+ 2. 添加对 get、post的处理
+  - server.get
+ 3. 或者使用router模块化添加逻辑
+  - server.use()
+ 4. 最终创建服务器
+  - sever.listen()
+  
+  
